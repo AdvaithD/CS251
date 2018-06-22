@@ -1,6 +1,8 @@
-# My Awesome Book
+# CS251
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Going through the CS251 course and writing down notes. I'm well aware of cryptocurrencies and blockchain technology in general but was curious as to what an academic perspective on them looks like. So here goes.
+
+* [Princeton bitcoin book](https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1)
 
 
 
