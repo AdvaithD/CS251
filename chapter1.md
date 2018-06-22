@@ -9,8 +9,6 @@
   * Cryptography provides a mechanism for encoding rules of a cryptocurrency system in itself
   * Cryptocurrencies make use of hash functions and digital signatures.
 
-
-
 ### 1.1 Cryptographic Hash Functions
 
 * Mathematical function
@@ -30,14 +28,13 @@
   * Hiding
     * If given the hash y = H\(x\) theres no feasible way to figure out the input x.
     * A hash function is hiding when a secret value r is chosen from a probability distribution  that has high min-entropy. Then given H\(r \|\| x\) it is infeasible to find x.
+    * **min-entropy: **Measure of how predictable an outcome is. High min-entropy implies that the distribution is spread out.
   * puzzle friendliness
 * Message digests
   * x and y unique =&gt; H\(x\) and H\(y\) are unique.
     * If  someone knew x and y that were unique, but have the same hash, that would violate our assumption that H is collision resistance
   * SecureBox - authenticated online file storage system
     * Upload files and ensure integrity using hashes.
-
-
 
 
 
