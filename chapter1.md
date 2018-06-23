@@ -25,10 +25,19 @@
       * Input space larger than output space
       * Pigeonhole principle
     * Birthday paradox: picking more inputs than possible outputs
+    * Application:
+      * Message digests
   * Hiding
     * If given the hash y = H\(x\) theres no feasible way to figure out the input x.
     * A hash function is hiding when a secret value r is chosen from a probability distribution  that has high min-entropy. Then given H\(r \|\| x\) it is infeasible to find x.
     * **min-entropy: **Measure of how predictable an outcome is. High min-entropy implies that the distribution is spread out.
+    * Application:
+      * Commitments: analogous to taking a value, sealing it in an envelope and putting it on a table.
+      * Commitment scheme consists of a commit algo, verify algo.
+      * Needs to have hiding and binding properties
+        * given com, infeasible to find ms and 
+        * generate random nonce\*
+          * A value that can only be used once
   * puzzle friendliness
 * Message digests
   * x and y unique =&gt; H\(x\) and H\(y\) are unique.
